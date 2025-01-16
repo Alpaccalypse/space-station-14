@@ -295,6 +295,15 @@
   - type: Icon
     sprite: Objects/Consumable/Drinks/atomicbombglass.rsi
     state: icon
+  - type: RadiationSource
+    intensity: 0.101
+    slope: 50
+  - type: Appearance
+  - type: PointLight
+    radius: 1.1
+    energy: 3
+    castShadows: false
+    color: "#00e600"
 
 - type: entity
   parent: DrinkGlass
@@ -1301,6 +1310,15 @@
   - type: Icon
     sprite: Objects/Consumable/Drinks/proj_manhattanglass.rsi
     state: icon
+  - type: RadiationSource
+    intensity: 0.11
+    slope: 50
+  - type: Appearance
+  - type: PointLight
+    radius: 1.1
+    energy: 3
+    castShadows: false
+    color: "#00e600"
 
 - type: entity
   parent: DrinkGlass
@@ -2027,6 +2045,15 @@
   - type: Icon
     sprite: Objects/Consumable/Drinks/threemileislandglass.rsi
     state: icon
+  - type: RadiationSource
+    intensity: 0.11
+    slope: 50
+  - type: Appearance
+  - type: PointLight
+    radius: 1.1
+    energy: 3
+    castShadows: false
+    color: "#00e600"
 
 - type: entity
   parent: DrinkGlass
